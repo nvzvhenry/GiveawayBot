@@ -36,7 +36,7 @@ const keyboards = {
     inline_keyboard: [
      
       [{ 'text': listText.step1, "url": linkGroupTele }],
-      [{ 'text': listText.check, 'callback_data': EVENT_CHECK_MISSION }],
+//       [{ 'text': listText.check, 'callback_data': EVENT_CHECK_MISSION }],
 
     ],
   },
