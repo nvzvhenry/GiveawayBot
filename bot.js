@@ -199,7 +199,7 @@ bot.onText(new RegExp(listText.keyPoint), async (msg) => {
     msg.chat.id,
     `User ID = ${info.id_telegram}
   \nReferral Points = ${refPoint}
-Referral link = https://t.me/CryptoATrade?start=${info.id_telegram}
+Referral link = https://t.me/CryptoATradeBot?start=${info.id_telegram}
 
 \nℹ️ For each person you invite and he/she completed tasks, you will get a referral point.`,
     keyboards.done
